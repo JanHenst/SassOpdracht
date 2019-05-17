@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  padding: 0;
+}
+
+.all {
+  margin: 0 auto;
+  max-width: 1130px;
+  padding: 0;
+}
+
+/*=========================================================== Nav bar ==============================================================  */
+.nav {
+  height: 80px;
+  background-color: white;
+  z-index: 1;
+}
+
+#logo1 {
+  margin-top: 15px;
+  margin-left: 134px;
+  width: 12em;
+}
+
+#search {
+  float: right;
+  margin-left: 200em;
+  margin-right: 2em;
+  margin-top: -2.4em;
+}
+
+/* einde nav */
+/* banner */
+#lil_brain {
+  float: right;
+  font-size: 16px;
+  margin-right: 10em;
+  margin-top: -6em;
+}
+
+#lees_meer {
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #0073CF;
+  padding: 10px;
+  margin-left: 20em;
+  border-radius: 5px;
+  border-color: white;
+  border-width: thin;
+}
+
+.dropdown {
+  float: right;
+  margin-top: 30px;
+  margin-right: 60px;
+}
+
+.dropdown2 {
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.banner {
+  background-image: url(images/slide-iddink1.jpg);
+  color: white;
+  width: 100%;
+  height: 22em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.bannertext {
+  margin-top: 5em;
+  margin-left: 9em;
+  font-size: 17px;
+}
+
+h1 {
+  color: #0073CF;
+}
+
+/* wat doen wij stukje */
+.wat_doen_wij {
+  text-align: center;
+}
+
+/* ontdek stukje */
+#ontdek_stukje {
+  text-align: center;
+}
+
+#ontdekButton1 {
+  display: block;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 27em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  background-color: #0073CF;
+  padding: 12px 16px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+#ontdekButton2 {
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #0073CF;
+  margin-left: 26.7em;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  display: inline-block;
+}
+
+#ipad_pijl {
+  float: right;
+  margin-top: -5em;
+  margin-right: 11em;
+}
+
+/* 4 pictures naast elkaar stukje */
+.pictures {
+  width: 24%;
+  display: inline-block;
+}
+
+.pictures a {
+  text-decoration: none;
+}
+
+/* ipad winactie stukje */
+.ipad_actie {
+  background-color: #7bceea;
+  color: white;
+  padding-top: 4em;
+  width: 100%;
+  padding-bottom: 3em;
+}
+
+.ipad_actie p {
+  margin-left: 4em;
+}
+
+.ipad_actie h2 {
+  margin-left: 2.6em;
+}
+
+#ipad {
+  float: right;
+  margin-right: 34em;
+  margin-top: -1.6em;
+}
+
+#ipad_winactie {
+  float: right;
+  width: 40%;
+  margin-top: -13em;
+  margin-right: 4em;
+}
+
+#win_een_ipad {
+  display: block;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: white;
+  background-color: #0073CF;
+  padding: 12px 16px;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 4em;
+}
+
+.Neem_contact_op {
+  text-align: center;
+}
+
+/* neem contact op stukje */
+#mail_ons {
+  display: block;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  background-color: #0073CF;
+  padding: 12px 16px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+#mobile {
+  float: right;
+  margin-right: 4.5em;
+  margin-top: -6em;
+}
+
+/* footer */
+footer {
+  padding-top: 3em;
+  padding-bottom: 4em;
+  background-color: #0073CF;
+  color: white;
+}
+
+footer img {
+  margin-left: 4em;
+}
+
+footer p {
+  margin-left: 4em;
+}
+
+#Iddink_group {
+  margin-left: 56.5em;
+  margin-top: -2.2em;
+}
+
+#linkje1 {
+  margin-left: 35em;
+  margin-top: -2.2em;
+}
+
+#linkje2 {
+  margin-left: 40em;
+  margin-top: -2.2em;
+}
+
+#linkje3 {
+  margin-left: 46.5em;
+  margin-top: -2.2em;
+}
+
+#linkje4 {
+  margin-left: 51em;
+  margin-top: -2.2em;
+}
+
+#linkje5 {
+  margin-left: 57em;
+  margin-top: -2.2em;
+}
+
+#linkje6 {
+  margin-left: 62em;
+  margin-top: -2.2em;
+}
+
+/*# sourceMappingURL=main.css.map */

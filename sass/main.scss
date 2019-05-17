@@ -1,0 +1,263 @@
+@import 'vars';
+@import 'mixins';
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0;
+}
+
+.all {
+  margin: 0 auto;
+  max-width: 1130px;
+  padding: 0;
+}
+
+
+/*=========================================================== Nav bar ==============================================================  */
+.nav {
+  height: 80px;
+  background-color: $tekstKleur;
+  z-index: 1;
+}
+
+#logo1 {
+ margin-top: 15px;
+ margin-left: 134px;
+ width: 12em;
+}
+
+#search {
+  float: $float;
+  margin-left: 200em;
+  margin-right: 2em;
+  margin-top: -2.4em;
+}
+
+/* einde nav */
+
+/* banner */
+
+#lil_brain {
+  float: $float;
+  font-size: 16px;
+  margin-right: 10em;
+  margin-top: -6em;
+}
+
+#lees_meer {
+  color: $tekstKleur;
+  cursor: $cursor;
+  font-size: 16px;
+  background-color: $blauweKleur;
+  padding: 10px;
+  margin-left: 20em;
+  border-radius: 5px;
+  border-color: $tekstKleur;
+  border-width: thin;
+}
+
+.dropdown {
+  float: $float;
+  margin-top: 30px;
+  margin-right: 60px;
+}
+
+.dropdown2 {
+  float: $float;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.banner {
+  background-image: url(images/slide-iddink1.jpg);
+  color: $tekstKleur;
+  width: 100%;
+  height: 22em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.bannertext {
+  margin-top: 5em;
+  margin-left: 9em;
+  font-size: 17px;
+}
+
+h1 {
+  color: $blauweKleur;
+}
+
+/* wat doen wij stukje */
+
+.wat_doen_wij {
+  text-align: $align;
+}
+
+/* ontdek stukje */
+
+#ontdek_stukje {
+  text-align: $align;
+}
+
+#ontdekButton1 {
+  display: block;
+  cursor: $cursor;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 27em;
+  text-align: $align;
+  text-decoration: $none;
+  color: $tekstKleur;
+  border-radius: 5px;
+  background-color: $blauweKleur;
+  padding: 12px 16px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+
+#ontdekButton2 {
+  display: block;
+  cursor: $cursor;
+  text-align: $align;
+  text-decoration: $none;
+  color: $blauweKleur;
+  margin-left: 26.7em;
+  border: $none;
+  background-color: $tekstKleur;
+  font-size: 16px;
+  display: inline-block;
+}
+
+#ipad_pijl {
+  float: $float;
+  margin-top: -5em;
+  margin-right: 11em;
+}
+
+/* 4 pictures naast elkaar stukje */
+
+.pictures {
+  width: 24%;
+  display: inline-block;
+}
+
+.pictures a {
+  text-decoration: $none;
+}
+
+/* ipad winactie stukje */
+
+.ipad_actie {
+  background-color: #7bceea;
+  color: $tekstKleur;
+  padding-top: 4em;
+  width: 100%;
+  padding-bottom: 3em;
+}
+
+.ipad_actie p {
+  margin-left: 4em;
+}
+
+.ipad_actie h2 {
+  margin-left: 2.6em;
+}
+
+#ipad {
+  float: $float;
+  margin-right: 34em;
+  margin-top: -1.6em;
+}
+
+#ipad_winactie {
+  float: $float;
+  width: 40%;
+  margin-top: -13em;
+  margin-right: 4em;
+}
+
+#win_een_ipad {
+  display: block;
+  cursor: $cursor;
+  color: $tekstKleur;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: $tekstKleur;
+  background-color: $blauweKleur;
+  padding: 12px 16px;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 4em;
+}
+
+.Neem_contact_op {
+  text-align: $align;
+}
+
+/* neem contact op stukje */
+
+#mail_ons {
+  display: block;
+  cursor: $cursor;
+  color: $tekstKleur;
+  border-radius: 10px;
+  background-color: $blauweKleur;
+  padding: 12px 16px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+#mobile {
+  float: $float;
+  margin-right: 4.5em;
+  margin-top: -6em;
+}
+
+/* footer */
+
+footer {
+  padding-top: 3em;
+  padding-bottom: 4em;
+  background-color: $blauweKleur;
+  color: $tekstKleur;
+}
+
+footer img {
+  margin-left: 4em;
+}
+
+footer p {
+  margin-left: 4em;
+}
+
+#Iddink_group {
+  margin-left: 56.5em;
+  margin-top: -2.2em;
+}
+
+#linkje1 {
+  margin-left: 35em;
+  margin-top: -2.2em;
+}
+#linkje2 {
+  margin-left: 40em;
+  margin-top: -2.2em;
+}
+#linkje3 {
+  margin-left: 46.5em;
+  margin-top: -2.2em;
+}
+#linkje4 {
+  margin-left: 51em;
+  margin-top: -2.2em;
+}
+#linkje5 {
+  margin-left: 57em;
+  margin-top: -2.2em;
+}
+#linkje6 {
+  margin-left: 62em;
+  margin-top: -2.2em;
+}
