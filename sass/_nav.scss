@@ -1,0 +1,30 @@
+.nav {
+  height: 80px;
+  background-color: $tekstKleur;
+  z-index: 1;
+}
+
+#logo1 {
+ margin-top: 15px;
+ margin-left: 134px;
+ width: 12em;
+}
+
+#search {
+  float: $float;
+  margin-left: 200em;
+  margin-right: 2em;
+  margin-top: -2.4em;
+}
+
+.dropdown {
+  float: $float;
+  margin-top: 30px;
+  margin-right: 60px;
+}
+
+.dropdown2 {
+  float: $float;
+  margin-top: 30px;
+  margin-right: 10px;
+}
